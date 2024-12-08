@@ -42,7 +42,8 @@ body {
 .main-container {
     display: flex;
     padding: 2rem;
-    gap: 3rem;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .main-container-left,
@@ -129,3 +130,71 @@ body {
     margin-top: 1rem; 
     font-size: 1rem;
 }
+
+
+/* Quote Container */
+
+.quote-container {
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.quote-container h2 {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-container p {
+    margin-left: auto;
+    font-weight: 900;
+}
+
+/* Action Container */
+
+.action-container {
+    background-color: white;
+    padding: 4.5rem 9rem;
+}
+
+.inside-action-container {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    /* enables the button to be on the rightside */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.inside-action-container-left p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+.inside-action-container-right .sign-up-btn {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+
+
